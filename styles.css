@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 640px;
+    width: 640px;
+    border: 2px solid black;
+}
+
+.square{
+    box-sizing: border-box;
+    border: 1px solid black;
+    flex: 0 0 auto;
+    transition: background-color 0.2s;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: center;
+    gap: 20px; /* Space between button and grid */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
